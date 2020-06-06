@@ -175,6 +175,9 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+
+        // 新規追加
+        \App\Providers\HelloServiceProvider::class,
     ],
 
     /*

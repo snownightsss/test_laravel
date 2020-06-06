@@ -23,4 +23,9 @@ Route::get('/', function () {
 
 // Route::get('hello/{id?}/{pass?}','HelloController@index');
 // Route::get('hello','HelloController');  //__invokeの場合は@以下をつける必要はない
+// Route::get('hello','HelloController@index');
+// Route::get('hello',function(){
+//     return view('hello.index');
+// });
 Route::get('hello','HelloController@index');
+Route::post('hello','HelloController@post');
